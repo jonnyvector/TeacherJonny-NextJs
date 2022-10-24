@@ -1,11 +1,15 @@
+import ExportedImage from "next-image-export-optimizer";
 import classes from "./HiwBlock.module.css";
-
 
 function HiwBlock(props) {
   return (
     <div className={classes.container} style={{ whiteSpace: "pre-line" }}>
-      <img
-       alt="How it works with Teacher Jonny." src={props.image}></img>
+      <ExportedImage
+        src={props.image}
+        alt="How it works with Teacher Jonny."
+        width="175"
+        height="175"
+      ></ExportedImage>
       <h3>{props.heading}</h3>
       <p>{props.text}</p>
     </div>
