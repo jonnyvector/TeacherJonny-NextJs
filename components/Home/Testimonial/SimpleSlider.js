@@ -101,7 +101,7 @@ export default class SimpleSlider extends Component {
             <Card>
               <Avatar
                 src="/images/Dolly.jpg"
-                className={classes.avatar}
+                sx={{ height: "100px", width: "100px" }}
                 alt="young boy"
               />
               <h2>Kimi</h2>
@@ -120,7 +120,7 @@ export default class SimpleSlider extends Component {
               <div>
                 <Avatar
                   src="/images/Dolly.jpg"
-                  className={classes.avatar}
+                  sx={{ height: "100px", width: "100px" }}
                   alt="young girl"
                 />
               </div>
@@ -139,7 +139,7 @@ export default class SimpleSlider extends Component {
             <Card>
               <Avatar
                 src="/images/SpaceBoy.png"
-                className={classes.avatar}
+                sx={{ height: "100px", width: "100px" }}
                 alt="young boy"
               />
               <h2>Kimi</h2>
