@@ -1,7 +1,8 @@
+import { Fragment } from "react";
+import ExportedImage from "next-image-export-optimizer";
 import MainNavigation from "../../components/layout/Nav/MainNavigation";
 import classes from "./AboutMe.module.css";
 import Wrapper from "../../components/ui/Wrapper";
-import { Fragment } from "react";
 import CallToAction from "../../components/ui/CallToAction";
 
 import Head from "next/head";
@@ -20,8 +21,12 @@ export default function AboutMe() {
           Empowering students to be their best is my passion.
         </h1>
         <div className={classes.container}>
-          <img 
-          alt="Jonny teaching a class." src="/images/MissionBlob.png"></img>
+          <ExportedImage
+            src="/images/MissionBlob.png"
+            alt="Jonny teaching a class."
+            width="350"
+            height="298"
+          ></ExportedImage>
           <div className={classes["text-container"]}>
             <h2>
               <span className={classes["section-heading-my"]}>My</span>
@@ -37,8 +42,12 @@ export default function AboutMe() {
           </div>
         </div>
         <div className={classes["reverse-block"]}>
-          <img 
-          alt="Jonny's diploma." src="/images/EducationBlob.png"></img>
+          <ExportedImage
+            src="/images/EducationBlob.png"
+            alt="Jonny's diploma."
+            width="350"
+            height="298"
+          ></ExportedImage>
           <div className={classes["text-container"]}>
             <h2>
               <span className={classes["section-heading-my"]}>My</span>
@@ -56,10 +65,12 @@ export default function AboutMe() {
           </div>
         </div>
         <div className={classes.container}>
-          <img
-            alt="A picture of Jonny's experience."
+          <ExportedImage
             src="/images/ExperienceBlob.png"
-          ></img>
+            alt="A picture of Jonny's experience."
+            width="350"
+            height="298"
+          ></ExportedImage>
           <div className={classes["text-container"]}>
             <h2>
               <span className={classes["section-heading-my"]}>My</span>

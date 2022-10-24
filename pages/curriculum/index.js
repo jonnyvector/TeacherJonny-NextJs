@@ -1,10 +1,10 @@
+import Head from "next/head";
+import ExportedImage from "next-image-export-optimizer";
 import MainNavigation from "../../components/layout/Nav/MainNavigation";
 import CallToAction from "../../components/ui/CallToAction";
 import Wrapper from "../../components/ui/Wrapper";
 import CurrBlock from "./CurrBlock";
-import Head from "next/head";
 import classes from "./Curriculum.module.css";
-
 
 export default function Curriculum() {
   return (
@@ -21,8 +21,12 @@ export default function Curriculum() {
             teaching materials to ensure that your child's learning goals are
             met!
           </h2>
-          <img
-          src={"/images/CurrHero.svg"} className={classes["hero-image"]} />
+          <ExportedImage
+            src={"/images/CurrHero.svg"}
+            className={classes["hero-image"]}
+            width="500"
+            height="500"
+          />
           <h2>In Teacher Jonny's classroom your child will learn to:</h2>
           <div className={classes["flex-container"]}>
             <CurrBlock
