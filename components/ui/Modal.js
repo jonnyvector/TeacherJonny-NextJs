@@ -17,7 +17,7 @@ export default function Modal({ open, children, onClose }) {
             className={classes.close}
             onClick={onClose}
           />
-          <img src={"https://www.jonnyhicks.com/images/TeacherJonnyWCQR.jpg"} />
+          <img src="/images/WeChatQR.jpg" />
         </div>
       </>
     );

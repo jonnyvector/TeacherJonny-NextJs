@@ -82,7 +82,8 @@ export default class SimpleSlider extends Component {
           <Card>
             <Avatar
               src="/images/Dolly.jpg"
-              className={classes.avatar}
+              // className={classes.avatar}
+              sx={{ height: "100px", width: "100px" }}
               alt="Young girl"
             />
             <h2>Alvin</h2>
