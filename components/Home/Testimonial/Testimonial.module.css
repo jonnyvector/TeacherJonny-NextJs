@@ -1,0 +1,37 @@
+.container {
+  padding: 32px;
+  background-image: url("/images/Vector.png");
+  background-repeat: no-repeat;
+}
+
+.testimonial {
+  margin-bottom: 32px;
+}
+
+.button {
+  text-align: center;
+}
+
+.word,
+.word-first {
+  /* text-align: center; */
+  align-items: center;
+  position: relative;
+  font-family: Roboto Slab;
+  font-weight: 700;
+  font-size: 32px;
+  z-index: 1;
+}
+
+.word:after {
+  background-color: #03c29e;
+  opacity: 0.6;
+  content: " ";
+  height: 30%;
+  position: absolute;
+  left: 0;
+  margin-left: 0.32rem;
+  top: 65%;
+  width: calc(85%);
+  z-index: -1;
+}

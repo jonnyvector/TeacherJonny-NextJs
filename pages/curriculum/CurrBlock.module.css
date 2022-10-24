@@ -1,0 +1,21 @@
+.curr-block {
+  display: block;
+  width: 33.33%;
+  margin: 16px 32px;
+}
+
+.curr-block img {
+  width: 125px;
+}
+
+.curr-block p {
+  font-family: Poppins;
+}
+
+@media only screen and (max-width: 600px) {
+  .curr-block {
+    display: block;
+    width: 70%;
+    padding: 0 32px;
+  }
+}

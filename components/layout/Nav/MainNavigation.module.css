@@ -1,0 +1,145 @@
+.header {
+  color: #03c29e;
+  background-color: white;
+  background-color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  transition: 0.3s ease-in-out;
+  z-index: 5;
+}
+
+.DesktopNav {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fixed {
+  /* background-color: #03c29e; */
+  /* color: white; */
+  padding: 0.3rem;
+  box-shadow: 0 4px 8px -1px gray;
+}
+
+.logo {
+  font-family: Roboto Slab;
+  font-weight: 600;
+  font-size: 24px;
+  margin-left: 0.5rem;
+}
+
+.MobileNav {
+  display: none;
+}
+
+.hamburger {
+  position: absolute;
+  top: 8px;
+  right: 4px;
+  cursor: pointer;
+  transition: all 1s ease-in-out;
+}
+
+.header nav {
+  display: flex;
+}
+
+.nav-button {
+  margin-right: 0.5rem;
+  font-family: Poppins;
+  border: none;
+  color: white;
+  background-color: #03c29e;
+  border-radius: 8px;
+  padding: 0.5rem;
+  box-shadow: 0px 2px 12px RGB(18, 158, 134, 100);
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+
+.nav-button:hover {
+  background-color: #1c9e86;
+}
+
+.header ul {
+  font-family: Poppins;
+  display: flex;
+  list-style: none;
+  align-items: center;
+  padding: 0.5rem;
+  font-size: 14px;
+}
+
+.header li {
+  margin-left: 1rem;
+  color: #0a0a0aa2;
+  transition: color 0.3s ease-out;
+}
+
+.header li:hover {
+  color: black;
+}
+
+@media only screen and (max-width: 760px) {
+  .header {
+    padding: 12px 0;
+  }
+
+  .DesktopNav {
+    display: none;
+  }
+
+  .MobileNav {
+    display: flex;
+    flex-direction: column;
+    transition: all 0.3s ease-out;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    background-color: white;
+
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .nav-links nav {
+    margin: 0 auto;
+    text-align: center;
+    background-color: white;
+  }
+
+  .nav-menu {
+    left: -100%;
+    position: fixed;
+    top: 48px;
+    opacity: 1;
+    gap: 0;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .nav-menu.active {
+    left: 0;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .nav-menu li {
+    margin: 8px;
+  }
+
+  .nav-links ul li button {
+    margin: 0 auto;
+    width: 250px;
+  }
+}

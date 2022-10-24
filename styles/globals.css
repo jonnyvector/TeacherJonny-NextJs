@@ -1,0 +1,50 @@
+html,
+body {
+  padding: 0;
+  margin: 0 auto;
+  font-family: Roboto Slab, Poppins;
+  width: 100%;
+  overflow-x: visible;
+  background-color: white;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  /* background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important; */
+  /* background-color: #f9f9f9; */
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 400;
+  padding: 8px 40px;
+}
+
+@media only screen and (max-width: 760px) {
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+}
