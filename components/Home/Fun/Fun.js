@@ -1,31 +1,22 @@
 import classes from "./Fun.module.css";
-import Image from "next/image";
-import funBoy from '../../../public/images/FunBoyBlob.png'
-import funJonny from '../../../public/images/FunJonnyBlob.png'
 
 function Fun() {
   return (
-    <div className='flex-container'>
-      <Image
-      width={500}
-      height={500}
+    <div className="flex-container">
+      <img
         alt="One-on-one class with a young boy"
-        src={funBoy}
+        src="/images/FunBoyBlob.png"
         className={classes["img-kid"]}
-      ></Image>
+      ></img>
       <p className={classes.text}>
         One-on-One classes are <span className={classes.fun}>FUN!</span>
       </p>
-      
-      <Image
-      width={500}
-      height={500}
-      
+
+      <img
         alt="Jonny teaching and smiling."
-        src={funJonny}
+        src="images/FunJonnyBlob.png"
         className={classes["img-jonny"]}
-      ></Image>
-      
+      ></img>
     </div>
   );
 }
