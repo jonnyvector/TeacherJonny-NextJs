@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import NavWrapper from "../../ui/NavWrapper";
 import MobileNavigation from "./MobileNavigation";
 import DesktopNav from "./DesktopNav";
+
 function MainNavigation() {
   const [scrolling, setIsScrolling] = useState(false);
 
@@ -29,6 +30,10 @@ function MainNavigation() {
         <div className={classes["nav-left"]}>
           <Link href="/">
             <a className={classes.logo}>Teacher Jonny</a>
+          </Link>
+          <span className={classes["language-bar"]}>|</span>
+          <Link href="/home-zh">
+            <a>中文</a>
           </Link>
         </div>
         <DesktopNav />

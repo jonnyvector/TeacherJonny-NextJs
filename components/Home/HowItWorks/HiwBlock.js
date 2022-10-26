@@ -9,6 +9,7 @@ function HiwBlock(props) {
         alt="How it works with Teacher Jonny."
         width="175"
         height="175"
+        unoptimized={true}
       ></ExportedImage>
       <h3>{props.heading}</h3>
       <p>{props.text}</p>

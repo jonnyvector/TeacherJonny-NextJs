@@ -9,6 +9,7 @@ function USPBlock(props) {
         alt="Reason for learning with Teacher Jonny"
         width="100"
         height="100"
+        unoptimized={true}
       ></ExportedImage>
       <h3>{props.heading}</h3>
       <p>{props.text}</p>

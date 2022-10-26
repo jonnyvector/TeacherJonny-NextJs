@@ -1,0 +1,43 @@
+.heading {
+  margin-top: 48px;
+}
+
+.container {
+  text-align: center;
+  /* padding: 8px 24px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.word,
+.word-first {
+  align-items: center;
+  position: relative;
+  font-family: Roboto Slab;
+  font-weight: 700;
+  font-size: 32px;
+  z-index: 1;
+}
+
+.word:after {
+  background-color: #03c29e;
+  opacity: 0.6;
+  content: " ";
+  height: 30%;
+  position: absolute;
+  left: 0;
+  margin-left: 0.7rem;
+  top: 65%;
+  width: calc(88%);
+  z-index: -1;
+}
+
+@media only screen and (max-width: 760px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* width: 50%; */
+  }
+}

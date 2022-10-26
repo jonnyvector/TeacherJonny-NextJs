@@ -1,5 +1,4 @@
 import MainNavigation from "../components/layout/Nav/MainNavigation";
-
 import Wrapper from "../components/ui/Wrapper";
 import Hero from "../components/Home/Hero/Hero";
 import Fun from "../components/Home/Fun/Fun";

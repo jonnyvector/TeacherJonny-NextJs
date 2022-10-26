@@ -81,13 +81,13 @@ export default class SimpleSlider extends Component {
         <Slider {...settingsWithModules}>
           <Card>
             <Avatar
-              src="/images/Dolly.jpg"
+              src="/images/Alvin.jpg"
               // className={classes.avatar}
               sx={{ height: "100px", width: "100px" }}
               alt="Young girl"
             />
             <h2>Alvin</h2>
-            <p>from Dalian</p>
+            <p>from Taiyuan</p>
             <p className={text}>
               I am the mother of a 10 year old who has been studying with
               Teacher Jonny for over 4 years. My son likes Teacher Jonny's
@@ -100,7 +100,7 @@ export default class SimpleSlider extends Component {
           <div>
             <Card>
               <Avatar
-                src="/images/Dolly.jpg"
+                src="/images/Kimi.jpg"
                 sx={{ height: "100px", width: "100px" }}
                 alt="young boy"
               />
@@ -125,13 +125,13 @@ export default class SimpleSlider extends Component {
                 />
               </div>
               <h2>Dolly</h2>
-              <p>from Tianjin</p>
+              <p>from Taiyuan</p>
               <p className={text}>
-                Thank you, Mr. Jonny. First of all, Dolly feels very good
+                Thank you, Teacher Jonny. First of all, Dolly feels very good
                 studying with you after several classes. She said that she will
                 always study with you. She likes you very much. She can feel the
                 difference in your style from other foreign teachers, which has
-                made her very obsessed! Nice to have you! come on!
+                made her very obsessed! Nice to have you! Come on!
               </p>
             </Card>
           </div>
@@ -145,8 +145,10 @@ export default class SimpleSlider extends Component {
               <h2>Kimi</h2>
               <p>from Shanghai</p>
               <p className={text}>
-                Kimi非常喜欢上Jonny老师的课，每次的1小时课时都觉得意犹未尽。Jonny老师上课时和孩子的互动性非常强，能抓住孩子的兴趣点，启发孩子发散性思维。非常感谢Jonny
-                老师
+                Kimi LOVES Teacher Jonny's class. Every 1-hour class is full of
+                interesting activities. Teacher Jonny is very interactive with
+                the children in class and can grab the children's interests and
+                inspire creative thinking. Many thanks to Teacher Jonny!
               </p>
             </Card>
           </div>
