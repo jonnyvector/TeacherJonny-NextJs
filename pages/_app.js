@@ -22,6 +22,23 @@ function MyApp({ Component, pageProps }) {
     `}
       </Script>
 
+      <Script
+        id="google-script"
+        strategy="lazyOnload"
+        src={`https://www.googletagmanager.com/gtag/js?id=G-ETGGHGZ98Y`}
+      />
+
+      <Script id="google-anayltic-script" strategy="lazyOnload">
+        {`
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-ETGGHGZ98Y', {
+        page_path: window.location.pathname,
+        });
+    `}
+      </Script>
+
       <Head>
         <link rel="shortcut icon" href="/images/favicon.ico" />
         <link
