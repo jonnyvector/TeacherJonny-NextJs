@@ -2,6 +2,5 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/about-me-zh": "pages/about-me-zh.js",
-  "/curriculum-zh": "pages/curriculum-zh.js"
+  "/": "pages/index.js"
 }
