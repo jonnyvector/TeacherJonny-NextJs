@@ -1,5 +1,4 @@
 import React from "react";
-import ExportedImage from "next-image-export-optimizer";
 import classes from "./CurrBlock.module.css";
 
 function CurrBlock(props) {
