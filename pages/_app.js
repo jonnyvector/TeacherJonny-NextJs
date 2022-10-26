@@ -23,12 +23,12 @@ function MyApp({ Component, pageProps }) {
       </Script>
 
       <Script
-        id="google-script"
+        id="google-script-2"
         strategy="lazyOnload"
         src={`https://www.googletagmanager.com/gtag/js?id=G-ETGGHGZ98Y`}
       />
 
-      <Script id="google-anayltic-script" strategy="lazyOnload">
+      <Script id="google-anayltic-scrip-2" strategy="lazyOnload">
         {`
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
