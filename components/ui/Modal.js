@@ -17,7 +17,7 @@ export default function Modal({ open, children, onClose }) {
             className={classes.close}
             onClick={onClose}
           />
-          <img src="/images/WeChatQR.jpg" />
+          <img alt="wechat modal" src="/images/WeChatQR.jpg" />
         </div>
       </>
     );
