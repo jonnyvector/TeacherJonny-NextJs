@@ -7,7 +7,7 @@ function USP(props) {
     <div>
       <SectionHeading>
         <span className={classes["word-first"]}>为什么是</span>
-        <span className={classes.word}>Jonny老师？?</span>
+        <span className={classes.word}>Jonny老师？</span>
       </SectionHeading>
       <div className={classes["usp-container"]}>
         <USPBlock
