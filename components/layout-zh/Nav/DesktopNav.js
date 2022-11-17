@@ -26,7 +26,9 @@ function DesktopNav() {
           <li>
             <Link href="/curriculum-zh">课程</Link>
           </li>
-          <li></li>
+          <li>
+            <Link href="/#faq-zh">常见问题</Link>
+          </li>
         </ul>
       </nav>
       <Link href="/home-zh#book">

@@ -1,4 +1,3 @@
-import React, { useEffect, useState } from "react";
 import Faq from "react-faq-component";
 import SectionHeading from "../../ui/SectionHeading";
 import Wrapper from "../../ui/Wrapper";
@@ -7,8 +6,16 @@ import classes from "./FAQ.module.css";
 const data = {
   rows: [
     {
-      title: "How can we pay for classes?",
-      content: `I accept all major credit cards, Alipay, and WeChat Pay.`,
+      title: "What do I need to prepare before the class?",
+      content: `A computer or tablet with a camera and a stable network connection during the class.`,
+    },
+    {
+      title: "How can I schedule a class?",
+      content: `Once you subscribe, class will be scheduled per week in fixed time slots based on your availability.  There is no worry to arrange the lesson each lesson every time.`,
+    },
+    {
+      title: "What kind of payment method can I use?",
+      content: `Currently, Teacher Jonny supports several different payment methods, depending on your account country and location. `,
     },
     {
       title: "What platform will we use to have class?",
@@ -39,14 +46,16 @@ const config = {
 
 function FAQ() {
   return (
-    <Wrapper>
-      <SectionHeading>
-        <span className={classes["word-first"]}>Frequently Asked</span>
-        <span className={classes.word}> Questions</span>
-      </SectionHeading>
+    <div id="faq">
+      <Wrapper>
+        <SectionHeading>
+          <span className={classes["word-first"]}>Frequently Asked</span>
+          <span className={classes.word}> Questions</span>
+        </SectionHeading>
 
-      <Faq data={data} styles={styles} config={config} />
-    </Wrapper>
+        <Faq data={data} styles={styles} config={config} />
+      </Wrapper>
+    </div>
   );
 }
 

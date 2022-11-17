@@ -33,6 +33,9 @@ function NavLinks(props) {
             <Link href="/curriculum-zh">课程</Link>
           </li>
           <li>
+            <Link href="/#faq-zh">常见问题</Link>
+          </li>
+          <li>
             {" "}
             <Link
               href="/#book

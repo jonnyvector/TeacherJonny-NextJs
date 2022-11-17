@@ -6,8 +6,9 @@ import Hiw from "../../components/Home-zh/HowItWorks/Hiw";
 import USP from "../../components/Home-zh/USP/USP";
 import Testimonial from "../../components/Home-zh/Testimonial/Testimonial";
 import Book from "../../components/Home-zh/Book/Book";
-
 import Head from "next/head";
+import FAQ from "../../components/Home-zh/FAQ/FAQ";
+import Footer from "../../components/layout/Footer";
 
 export default function Home() {
   return (
@@ -26,6 +27,8 @@ export default function Home() {
       </Wrapper>
       <Testimonial />
       <Book />
+      <FAQ />
+      <Footer />
     </>
   );
 }

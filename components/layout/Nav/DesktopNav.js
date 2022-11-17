@@ -26,7 +26,9 @@ function DesktopNav() {
           <li>
             <Link href="/curriculum">Curriculum</Link>
           </li>
-          <li></li>
+          <li>
+            <Link href="/#faq">FAQ</Link>
+          </li>
         </ul>
       </nav>
       <Link href="/#book">

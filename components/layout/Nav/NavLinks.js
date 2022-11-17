@@ -33,9 +33,14 @@ function NavLinks(props) {
             <Link href="/curriculum">Curriculum</Link>
           </li>
           <li>
+            <Link href="/#faq">FAQ</Link>
+          </li>
+          <li>
             {" "}
-            <Link href="/#book
-            ">
+            <Link
+              href="/#book
+            "
+            >
               <button
                 className={
                   scrolling
