@@ -1,0 +1,30 @@
+.container {
+  /* width: 50%; */
+  /* display: flex; */
+  margin-top: 64px;
+  margin-bottom: 128px;
+  /* font-family: Poppins; */
+}
+
+.word,
+.word-first {
+  align-items: center;
+  position: relative;
+  font-family: Roboto Slab;
+  font-weight: 700;
+  font-size: 32px;
+  z-index: 0;
+}
+
+.word:after {
+  background-color: #03c29e;
+  opacity: 0.6;
+  content: " ";
+  height: 30%;
+  position: absolute;
+  left: 0;
+  margin-left: 0.5rem;
+  top: 65%;
+  width: calc(94%);
+  z-index: -1;
+}

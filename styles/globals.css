@@ -31,13 +31,25 @@ a {
   padding: 8px 40px;
 }
 
+.ant-collapse > .ant-collapse-item {
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.faq-row-wrapper {
+  margin: 12px;
+  font-family: Poppins;
+}
+
+.row-title {
+  font-weight: 600;
+}
+
 @media only screen and (max-width: 760px) {
   .flex-container {
     display: flex;
     flex-direction: column;
   }
 }
-
 
 @media (prefers-color-scheme: dark) {
   html {
