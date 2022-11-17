@@ -48,7 +48,7 @@ const config = {
 
 function FAQ() {
   return (
-    <div id="faq">
+    <div id="faq-zh">
       <Wrapper>
         <SectionHeading>
           <span className={classes["word-first"]}>Frequently Asked</span>
